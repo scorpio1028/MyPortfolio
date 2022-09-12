@@ -58,19 +58,14 @@ li{
     font-size: 45px;
     left: 45px;
     color: white;
+    border-left: 20px;
 }
 
 .hobby{
-   /* margin-left:260px; */
+   margin-left:260px;
    border-left: solid 12px rgb(170, 86, 100);
    color: rgb(141, 66, 78);
    font-size: 20px;
-}
-.mern{
-    /* margin-left: 260px; */
-    border-left: solid 12px rgb(170, 86, 100);
-    border: solid 2px rgb(192, 136, 146);
-
 }
 .report {
     bottom: 25px;
@@ -83,3 +78,15 @@ li{
 .container {
     display: flex;
 }
+
+.photo{
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.container:hover .photo{
+    opacity: 0.3;
+  }
