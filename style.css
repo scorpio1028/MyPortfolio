@@ -87,6 +87,3 @@ li{
   transition: .5s ease;
   backface-visibility: hidden;
 }
-.container:hover .photo{
-    opacity: 0.3;
-  }
